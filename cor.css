@@ -1,0 +1,42 @@
+div {
+  background-color: #0016db;
+  border-radius: 500px;
+  margin: auto;
+  margin-top: 250px ;
+  width: 250px;
+  height: 250px;
+}
+
+.verde {
+  background-color: #8cff85;
+  margin: auto;
+  margin-top: 250px;
+  width: 250px;
+  height: 250px;
+}
+
+.vermelho{
+    background-color: red;
+    margin: auto;
+    margin-top: 250px;
+    width: 250px;
+    height: 250px;
+  
+}
+
+.amarelo{
+    background-color: yellow;
+    margin: auto;
+    margin-top: 250px;
+    width: 250px;
+    height: 250px;
+  }
+
+  .preto{
+    background-color: black;
+    margin: auto;
+    margin-top: 250px;
+    width: 250px;
+    height: 250px;
+  }
+  

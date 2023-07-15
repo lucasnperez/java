@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+#box{
+    display: flex;
+    width: 500px;
+    height: 500px;
+    text-align: center;
+    flex-direction: column;
+    background-color: #505050b9;
+    margin: auto;
+    margin-top: 200px;
+    border-radius: 50px;
+    border:  2px solid #000000;
+    -webkit-box-shadow: 5px 5px 15px 5px #FF8080, -9px 5px 15px 5px #FFE488, -7px -5px 15px 5px #8CFF85, 12px -5px 15px 5px #80C7FF, 12px 10px 15px 7px #E488FF, -10px 10px 15px 7px #FF616B, -10px -7px 27px 1px #8E5CFF, 5px 5px 15px 5px rgba(0,0,0,0); 
+box-shadow: 5px 5px 15px 5px #FF8080, -9px 5px 15px 5px #FFE488, -7px -5px 15px 5px #8CFF85, 12px -5px 15px 5px #80C7FF, 12px 10px 15px 7px #E488FF, -10px 10px 15px 7px #FF616B, -10px -7px 27px 1px #8E5CFF, 5px 5px 15px 5px rgba(0,0,0,0);
+
+}
+
+.box{
+display: flex;
+flex-direction: column;
+}
+
+#titulo{
+    margin-top: 80px;
+    margin-bottom: 30px;
+}
+
+input {
+    border-radius: 7px;
+    width: 150px;
+    font-size: 14px;
+    height: 40px;
+    margin: auto;
+    margin-top: 2px;
+    margin-bottom: 7px;
+    text-align: center;
+    border: none;
+    background-color: #d0d2e3a2;
+    color: #000000;
+    transition: 0.5s;transition: 0.5s;
+    cursor: pointer;
+}
+
+input:hover{
+    transform: scale(1.05);
+    background-color: #9899a7a2;
+}
+
+input::placeholder{
+    color: black;
+}
+
+#resultado{
+    width: 250px;
+    height: 40px;
+    margin: auto;
+    border: none;
+    border-radius: 7px;
+    background-color: #000000a2;
+    color: aliceblue;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+#resultado:hover{
+    transform: scale(1.05);
+    background-color: #000000e0;
+}
