@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+*{
+    font-family: 'Ubuntu', sans-serif;
+}
+.details{
+    display: none;
+}
+
+#btn-info{
+    border: none;
+    background-color: deeppink;
+    border-radius: 15px;
+    cursor: pointer;
+    color: #fff;
+    width: 50px;
+    height: 25px;
+    transition: ease 0.5s;
+}
+
+#btn-info:hover{
+    transition: ease 0.5s;
+    background-color: rgb(197, 18, 113);
+    transform: scale(1.2);
+}
+
+div{
+    display: block;
+    width: 600px;
+}
